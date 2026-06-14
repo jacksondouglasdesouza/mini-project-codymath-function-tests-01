@@ -32,8 +32,7 @@ _Seven functions, each holding a small mathematical truth — drag, slide, and p
 
 <div align="center">
 
-<video src="./assets/testVideo01.mp4" controls width="100%">
-</video>
+![videoOp](assets/demo-max.gif)
 
 </div>
 
