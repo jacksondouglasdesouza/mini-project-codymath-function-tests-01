@@ -82,9 +82,9 @@
       };
    })();
 
-   const fromCdn =
-      !window.__cdnFailed && window.codymath && window.codymath.arithmetic;
-   const lib = fromCdn ? window.codymath.arithmetic : fallback;
+   const cm = window.CodyMath || window.codymath;
+   const fromCdn = !window.__cdnFailed && cm && cm.arithmetic;
+   const lib = fromCdn ? cm.arithmetic : fallback;
 
    // status badge
    const st = document.getElementById("libStatus");
